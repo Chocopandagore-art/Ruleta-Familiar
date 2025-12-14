@@ -145,21 +145,21 @@ if st.button("✨ Ver mi Reflejo ✨"):
 
     st.write("---")
     st.info("📌 **Recuerda:** Esto no es un diagnóstico. Si alguna de estas señales te genera malestar, no dudes en acercarte al equipo de bienestar estudiantil.")
-
 # 6. LOGO FINAL (SVG DIBUJADO)
-st.write(" ")
+st.write("---")
 st.markdown("""
-<div style="display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 30px;">
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 20px;">
     
-    <svg width="180" height="140" viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="60" cy="40" r="15" fill="#2196F3" opacity="0.9"/> <circle cx="100" cy="25" r="18" fill="#E91E63" opacity="0.9"/> <circle cx="140" cy="40" r="15" fill="#FF9800" opacity="0.9"/> <circle cx="80" cy="55" r="8" fill="#4CAF50" opacity="0.7"/>
+    <svg width="200" height="160" viewBox="0 0 200 160" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="60" cy="40" r="15" fill="#2196F3" opacity="0.9"/>
+        <circle cx="100" cy="25" r="18" fill="#E91E63" opacity="0.9"/>
+        <circle cx="140" cy="40" r="15" fill="#FF9800" opacity="0.9"/>
+        <circle cx="80" cy="55" r="8" fill="#4CAF50" opacity="0.7"/>
         <circle cx="120" cy="55" r="8" fill="#4CAF50" opacity="0.7"/>
-
         <circle cx="100" cy="80" r="12" fill="#2E7D32"/>
         <path d="M100 95 L100 140 M100 95 Q70 80 60 40 M100 95 Q130 80 140 40" 
               stroke="#2E7D32" stroke-width="8" stroke-linecap="round" fill="none"/>
-              
-        <text x="100" y="155" font-family="Arial, sans-serif" font-size="11" fill="#555" text-anchor="middle" font-weight="bold" letter-spacing="1">
+        <text x="100" y="155" font-family="Arial, sans-serif" font-size="11" fill="#555" text-anchor="middle" font-weight="bold">
             UNIVERSIDAD PRIVADA DOMINGO SAVIO
         </text>
     </svg>
@@ -167,5 +167,6 @@ st.markdown("""
     <div style="color: #888; font-size: 12px; margin-top: 5px; font-style: italic;">
         "Conocerme es el primer paso para cuidarme"
     </div>
+
 </div>
 """, unsafe_allow_html=True)
